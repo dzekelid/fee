@@ -7,11 +7,26 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventb
 x-kinRank: "9"
 x-alexaRank: "643"
 tags: Fee
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/fee/master/_listings/eventbrite/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Eventbrite - Get Pricing Fee Rates
+  x-api-slug: pricingfee-rates-get
+  description: |-
+    Returns a list of fee_rate objects for the different
+    currencies, countries, assortments and sales channels we sell through
+    today and in the future.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fee/master/_listings/eventbrite/pricingfee-rates-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://europeana.api.gallery.streamdata.io
